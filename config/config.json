@@ -1,7 +1,11 @@
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./db.development.sqlite"
+    "dialect": "mssql",
+    "username": "sa",
+    "password": "netsucesso",
+    "database": "TEST",
+    "host": "192.168.140.229",
+    "dialectOptions": {"instanceName": "SQLEXPRESS"}
   },
   "test": {
     "username": "root",
